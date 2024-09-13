@@ -1,9 +1,15 @@
 from django import forms
 
 CHART_CHOICES = (
+<<<<<<< HEAD
     ('#1', 'Bar chart'),
     ('#2', 'Pie chart'),
     ('#3', 'Line chart'),
+=======
+    ('bar-chart', 'Bar chart'),
+    ('pie-chart', 'Pie chart'),
+    ('line-chart', 'Line chart'),
+>>>>>>> 023926f (.)
 )
 
 class RecipeSearchForm(forms.Form):

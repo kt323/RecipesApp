@@ -44,4 +44,8 @@ def rename_columns(df):
         'ingredients': 'Ingredients',
         'difficulty': 'Difficulty'
     }
+<<<<<<< HEAD
     return df.rename(columns=column_mapping)
+=======
+    return df.rename(columns=column_mapping)
+>>>>>>> 023926f (.)
